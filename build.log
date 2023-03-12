@@ -1,0 +1,52 @@
+\n******************* Sun 12 Mar 2023 02:16:37 PM EAT: Starting script **************\n\n
+\n\n##############  Sun 12 Mar 2023 02:16:44 PM EAT: Script completed Succcessfully  #############\n\n
+\n******************* Sun 12 Mar 2023 02:17:51 PM EAT: Starting script **************\n\n
+\n\n##############  Sun 12 Mar 2023 02:18:02 PM EAT: Script completed Succcessfully  #############\n\n
+\n******************* Sun 12 Mar 2023 02:19:20 PM EAT: Starting script **************\n\n
+\n\n##############  Sun 12 Mar 2023 02:19:27 PM EAT: Script completed Succcessfully  #############\n\n
+\n******************* Sun 12 Mar 2023 02:20:01 PM EAT: Starting script **************\n\n
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 32B done
+#1 DONE 0.1s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 34B done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye
+#3 DONE 1.4s
+
+#4 [1/5] FROM docker.io/library/python:3.10.4-slim-bullseye@sha256:557745c5e06c874ba811efe2e002aff21b6cc405b828952fcfa16dea52d56dbb
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 2.07kB done
+#5 DONE 0.1s
+
+#6 [2/5] WORKDIR /bookstore
+#6 CACHED
+
+#7 [3/5] COPY ./requirements.txt .
+#7 CACHED
+
+#8 [4/5] RUN pip install -r requirements.txt
+#8 CACHED
+
+#9 [5/5] COPY . .
+#9 DONE 0.2s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 0.2s done
+#10 writing image sha256:e42ed1a79af540f8ce273fe5682cec9e09e091b1497669d5c562eacd5586b173 0.0s done
+#10 naming to docker.io/library/bookstore-web 0.0s done
+#10 DONE 0.3s
+Container bookstore-db-1  Running
+Container bookstore-web-1  Recreate
+Container bookstore-web-1  Recreated
+Container bookstore-web-1  Starting
+Container bookstore-web-1  Started
+NAME                IMAGE               COMMAND                  SERVICE             CREATED             STATUS                  PORTS
+bookstore-db-1      postgres:13         "docker-entrypoint.s…"   db                  About an hour ago   Up About an hour        5432/tcp
+bookstore-web-1     bookstore-web       "python /code/manage…"   web                 1 second ago        Up Less than a second   0.0.0.0:8000->8000/tcp
+\n\n##############  Sun 12 Mar 2023 02:20:06 PM EAT: Script completed Succcessfully  #############\n\n
