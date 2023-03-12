@@ -20,22 +20,30 @@ To automate the continuous build process using Docker Compose, you can create a 
 In addition, you can also set up a continuous integration tool like Jenkins or GitLab CI/CD in your local environment to automate the build process. This would involve defining a pipeline that includes the above steps, triggering the pipeline automatically when changes are made to your source code, and monitoring the pipeline to ensure that it is running correctly.
 
 Here's an example of a shell script that automates the continuous build process using Docker Compose:
+
 <code>
 #!/bin/bash
+</code>
 
 ### Navigate to the directory where your Docker Compose file is located
+<code>
 cd /path/to/your/docker/compose/file
+</code>
 
 ### Build your Docker images
+
+<code>
 docker-compose build
+</code>
+
 
 ### Start your containers
-docker-compose up -d
+```docker-compose up -d```
 
 ### Monitor your containers
-docker-compose ps
+```docker-compose ps```
 
-</code>
+
 
 You can save this script as a file with a .sh extension (e.g., build.sh) and make it executable using the following command:
 <code> 
