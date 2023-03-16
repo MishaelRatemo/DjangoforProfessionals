@@ -14,3 +14,12 @@ class HomepageTests(SimpleTestCase):
     def test_homepage_template(self): # new
         response = self.client.get("/")
         self.assertTemplateUsed(response, "home.html")
+
+    # testing correct HTML
+    def test_homepage_does_not_contain_incorrect_html(self):
+        response = self.client.get('/')
+        self.assertNotContains(response, "Hello, Am not supposed to be here, Something is wrong!!")
+
+    def test_homepage_contains_correct_html(self):
+        resp =self.client.get('/')
+        self.assertContains(resp, "home page")
