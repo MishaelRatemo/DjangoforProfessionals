@@ -18,13 +18,14 @@
     {% else %}
         {% now "H" as current_hour %}
         {% if current_hour|date:"G" < 12 %}
-            <p>Good morning, Visitor! You are not logged in. Please <a href="{% url 'login' %}">login</a> to continue.</p>
-        
+            <p>Good morning, Visitor! You are not logged in. Please <a href="{% url 'login' %}">login</a> to continue.</p> ||
+            <a href="{% url 'signup' %}">Sign Up</a>
         {% elif current_hour|date:"G" < 18 %}
-            <p>Good Afternoon, Visitor! You are not logged in. Please <a href="{% url 'login' %}">login</a> to continue.</p>
-        
+            <p>Good Afternoon, Visitor! You are not logged in. Please <a href="{% url 'login' %}">login</a> to continue.</p> ||
+            <a href="{% url 'signup' %}">Sign Up</a>
         {% else %}
-            <p>Good Evening, Visitor! You are not logged in. Please <a href="{% url 'login' %}">login</a> to continue.</p>
+            <p>Good Evening, Visitor! You are not logged in. Please <a href="{% url 'login' %}">login</a> to continue.</p> ||
+            <a href="{% url 'signup' %}">Sign Up</a>
         {% endif %}
 
     {% endif %}
