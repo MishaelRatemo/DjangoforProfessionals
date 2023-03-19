@@ -87,8 +87,9 @@ DATABASES = {
             "ENGINE": "django.db.backends.postgresql",
             "NAME": "postgres",
             "USER": "postgres",
-            "PASSWORD": "",
+            "PASSWORD": "mish",
             "HOST": "db",
+            # "HOST": "127.0.0.1",
             "PORT": 5432,
         }
 }
@@ -136,3 +137,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = "accounts.CustomUser"
+
+LOGIN_REDIRECT_URL = "home"
+LOGOUT_REDIRECT_URL = "home"
