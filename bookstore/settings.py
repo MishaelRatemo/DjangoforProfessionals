@@ -88,8 +88,8 @@ DATABASES = {
             "NAME": "postgres",
             "USER": "postgres",
             "PASSWORD": "mish",
-            "HOST": "db",
-            # "HOST": "127.0.0.1",
+            # "HOST": "db", # For docker COmpose
+            "HOST": "127.0.0.1", # For local development
             "PORT": 5432,
         }
 }
@@ -129,7 +129,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = 'static/'
+# For Local development
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [BASE_DIR/'static']
+
+# for Production
+STATIC_ROOT = BASE_DIR /'staticfiles'
+# STATICFILES_STORAGE = 'django.contrib.staticfiles.StaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
