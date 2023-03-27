@@ -2,6 +2,7 @@
 {% load static %}
 {% block title %}Home{% endblock title %}
 {% block content %}
+<div class="container">
     <h1>This is our home page.</h1>
     <img class="bookcover" src="{% static 'images/darkroom.jpg' %}">
     {% if user.is_authenticated %}  
@@ -31,5 +32,5 @@
         {% endif %}
 
     {% endif %}
-
+</div>
 {% endblock content %}

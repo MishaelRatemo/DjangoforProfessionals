@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 from pathlib import Path
+import pytz
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -88,8 +90,8 @@ DATABASES = {
             "NAME": "postgres",
             "USER": "postgres",
             "PASSWORD": "mish",
-            # "HOST": "db", # For docker COmpose
-            "HOST": "127.0.0.1", # For local development
+            "HOST": "db", # For docker COmpose
+            # "HOST": "127.0.0.1", # For local development
             "PORT": 5432,
         }
 }
@@ -119,7 +121,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Africa/Nairobi'
 
 USE_I18N = True
 

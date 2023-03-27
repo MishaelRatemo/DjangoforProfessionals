@@ -7,3 +7,12 @@ h1{
     height: 400px;
     width: auto;
 }
+
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+img:bookcover{
+    height: 400px;
+    width: auto;
+}
