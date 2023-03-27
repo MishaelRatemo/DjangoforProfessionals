@@ -90,7 +90,7 @@ DATABASES = {
             "NAME": "postgres",
             "USER": "postgres",
             "PASSWORD": "mish",
-            "HOST": "db", # For docker COmpose
+            "HOST": "127.0.0.1","db" # For docker COmpose NB: remove local for container
             # "HOST": "127.0.0.1", # For local development
             "PORT": 5432,
         }
