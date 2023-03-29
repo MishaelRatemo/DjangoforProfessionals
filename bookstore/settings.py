@@ -39,9 +39,17 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Third-party
+    "crispy_forms", 
+    "crispy_bootstrap5",
+    # local
     'accounts',
     'pages'
 ]
+
+# django-crispy-forms
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+CRISPY_TEMPLATE_PACK = "bootstrap5"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -90,8 +98,8 @@ DATABASES = {
             "NAME": "postgres",
             "USER": "postgres",
             "PASSWORD": "mish",
-            "HOST": "127.0.0.1","db" # For docker COmpose NB: remove local for container
-            # "HOST": "127.0.0.1", # For local development
+            # "HOST": "db", # For docker COmpose NB: remove local for container
+            "HOST": "127.0.0.1", # For local development
             "PORT": 5432,
         }
 }
