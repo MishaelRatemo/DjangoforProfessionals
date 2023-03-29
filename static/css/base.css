@@ -1,0 +1,18 @@
+h1{
+    color: royalblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bookcover {
+    height: 400px;
+    width: auto;
+}
+
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+img:bookcover{
+    height: 400px;
+    width: auto;
+}

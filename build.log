@@ -4611,3 +4611,1219 @@ bookstore-db-1      postgres:13         "docker-entrypoint.s…"   db           
 bookstore-web-1     bookstore-web       "python /code/manage…"   web                 2 hours ago         Up 2 hours          0.0.0.0:8000->8000/tcp
 ##############  Fri 17 Mar 2023 06:00:02 PM EAT: Script completed Succcessfully  #############
 
+******************* Mon 20 Mar 2023 04:59:01 PM EAT: Starting script **************
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 32B done
+#1 DONE 0.2s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 34B done
+#2 DONE 0.3s
+
+#3 [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye
+#3 ERROR: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+------
+ > [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye:
+------
+failed to solve: rpc error: code = Unknown desc = failed to solve with frontend dockerfile.v0: failed to create LLB definition: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+NAME                IMAGE               COMMAND                  SERVICE             CREATED             STATUS              PORTS
+bookstore-db-1      postgres:13         "docker-entrypoint.s…"   db                  8 days ago          Up 3 days           5432/tcp
+bookstore-web-1     bookstore-web       "python /code/manage…"   web                 3 days ago          Up 3 days           0.0.0.0:8000->8000/tcp
+##############  Mon 20 Mar 2023 04:59:04 PM EAT: Script completed Succcessfully  #############
+
+******************* Mon 20 Mar 2023 05:00:01 PM EAT: Starting script **************
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 32B done
+#1 DONE 0.3s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 34B done
+#2 DONE 0.4s
+
+#3 [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye
+#3 ERROR: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+------
+ > [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye:
+------
+failed to solve: rpc error: code = Unknown desc = failed to solve with frontend dockerfile.v0: failed to create LLB definition: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+NAME                IMAGE               COMMAND                  SERVICE             CREATED             STATUS              PORTS
+bookstore-db-1      postgres:13         "docker-entrypoint.s…"   db                  8 days ago          Up 3 days           5432/tcp
+bookstore-web-1     bookstore-web       "python /code/manage…"   web                 3 days ago          Up 3 days           0.0.0.0:8000->8000/tcp
+##############  Mon 20 Mar 2023 05:00:02 PM EAT: Script completed Succcessfully  #############
+
+******************* Mon 20 Mar 2023 05:59:01 PM EAT: Starting script **************
+
+#1 [internal] load .dockerignore
+#1 transferring context: 34B 0.0s done
+#1 DONE 0.5s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 32B 0.0s done
+#2 DONE 0.7s
+
+#3 [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye
+#3 ERROR: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+------
+ > [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye:
+------
+failed to solve: rpc error: code = Unknown desc = failed to solve with frontend dockerfile.v0: failed to create LLB definition: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+NAME                IMAGE               COMMAND                  SERVICE             CREATED             STATUS              PORTS
+bookstore-db-1      postgres:13         "docker-entrypoint.s…"   db                  8 days ago          Up 21 minutes       5432/tcp
+bookstore-web-1     bookstore-web       "python /code/manage…"   web                 21 minutes ago      Up 21 minutes       0.0.0.0:8000->8000/tcp
+##############  Mon 20 Mar 2023 05:59:03 PM EAT: Script completed Succcessfully  #############
+
+******************* Mon 20 Mar 2023 06:00:01 PM EAT: Starting script **************
+
+#1 [internal] load .dockerignore
+#1 transferring context: 34B done
+#1 ...
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 32B done
+#2 DONE 0.3s
+
+#1 [internal] load .dockerignore
+#1 DONE 0.6s
+
+#3 [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye
+#3 ERROR: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+------
+ > [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye:
+------
+failed to solve: rpc error: code = Unknown desc = failed to solve with frontend dockerfile.v0: failed to create LLB definition: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+NAME                IMAGE               COMMAND                  SERVICE             CREATED             STATUS              PORTS
+bookstore-db-1      postgres:13         "docker-entrypoint.s…"   db                  8 days ago          Up 22 minutes       5432/tcp
+bookstore-web-1     bookstore-web       "python /code/manage…"   web                 22 minutes ago      Up 22 minutes       0.0.0.0:8000->8000/tcp
+##############  Mon 20 Mar 2023 06:00:03 PM EAT: Script completed Succcessfully  #############
+
+******************* Tue 21 Mar 2023 10:59:01 AM EAT: Starting script **************
+
+#1 [internal] load .dockerignore
+#1 transferring context: 34B done
+#1 DONE 0.2s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 32B done
+#2 DONE 0.2s
+
+#3 [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye
+#3 DONE 1.7s
+
+#4 [1/5] FROM docker.io/library/python:3.10.4-slim-bullseye@sha256:557745c5e06c874ba811efe2e002aff21b6cc405b828952fcfa16dea52d56dbb
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 267.04kB 0.1s done
+#5 DONE 0.2s
+
+#6 [2/5] WORKDIR /bookstore
+#6 CACHED
+
+#7 [3/5] COPY ./requirements.txt .
+#7 CACHED
+
+#8 [4/5] RUN pip install -r requirements.txt
+#8 CACHED
+
+#9 [5/5] COPY . .
+#9 DONE 0.8s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 0.3s done
+#10 writing image sha256:315cc788edf284bdeecdd01d823fb4f3aa5f6c6b64eed28e8dd60934c9685c67 0.0s done
+#10 naming to docker.io/library/bookstore-web
+#10 naming to docker.io/library/bookstore-web 0.0s done
+#10 DONE 0.4s
+Container bookstore-db-1  Running
+Container bookstore-web-1  Recreate
+Container bookstore-web-1  Recreated
+Container bookstore-web-1  Starting
+Container bookstore-web-1  Started
+NAME                IMAGE               COMMAND                  SERVICE             CREATED             STATUS                  PORTS
+bookstore-db-1      postgres:13         "docker-entrypoint.s…"   db                  8 days ago          Up 42 seconds           5432/tcp
+bookstore-web-1     bookstore-web       "python /code/manage…"   web                 3 seconds ago       Up Less than a second   0.0.0.0:8000->8000/tcp
+##############  Tue 21 Mar 2023 10:59:09 AM EAT: Script completed Succcessfully  #############
+
+******************* Tue 21 Mar 2023 11:00:01 AM EAT: Starting script **************
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 32B done
+#1 DONE 0.1s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 34B done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye
+#3 ERROR: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+------
+ > [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye:
+------
+failed to solve: rpc error: code = Unknown desc = failed to solve with frontend dockerfile.v0: failed to create LLB definition: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+NAME                IMAGE               COMMAND                  SERVICE             CREATED             STATUS              PORTS
+bookstore-db-1      postgres:13         "docker-entrypoint.s…"   db                  8 days ago          Up About a minute   5432/tcp
+bookstore-web-1     bookstore-web       "python /code/manage…"   web                 56 seconds ago      Up 54 seconds       0.0.0.0:8000->8000/tcp
+##############  Tue 21 Mar 2023 11:00:02 AM EAT: Script completed Succcessfully  #############
+
+******************* Tue 21 Mar 2023 11:59:01 AM EAT: Starting script **************
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 610B done
+#1 DONE 0.1s
+
+#2 [internal] load .dockerignore
+#2 transferring context:
+#2 transferring context: 34B 0.0s done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye
+#3 DONE 3.7s
+
+#4 [1/5] FROM docker.io/library/python:3.10.4-slim-bullseye@sha256:557745c5e06c874ba811efe2e002aff21b6cc405b828952fcfa16dea52d56dbb
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 277.11kB 0.1s done
+#5 DONE 0.2s
+
+#6 [2/5] WORKDIR /bookstore
+#6 CACHED
+
+#7 [3/5] COPY ./requirements.txt .
+#7 CACHED
+
+#8 [4/5] RUN pip install -r requirements.txt
+#8 CACHED
+
+#9 [5/5] COPY . .
+#9 DONE 0.3s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 0.2s done
+#10 writing image sha256:531834ad0305434937f32df7df81c8db27a55feacff058eb17c9207483b532e4 0.0s done
+#10 naming to docker.io/library/bookstore-web
+#10 naming to docker.io/library/bookstore-web 0.0s done
+#10 DONE 0.4s
+Container bookstore-db-1  Running
+Container bookstore-web-1  Recreate
+Container bookstore-web-1  Recreated
+Container bookstore-web-1  Starting
+Container bookstore-web-1  Started
+NAME                IMAGE               COMMAND                  SERVICE             CREATED             STATUS                  PORTS
+bookstore-db-1      postgres:13         "docker-entrypoint.s…"   db                  8 days ago          Up About an hour        5432/tcp
+bookstore-web-1     bookstore-web       "python /code/manage…"   web                 4 seconds ago       Up Less than a second   0.0.0.0:8000->8000/tcp
+##############  Tue 21 Mar 2023 11:59:13 AM EAT: Script completed Succcessfully  #############
+
+******************* Tue 21 Mar 2023 12:00:01 PM EAT: Starting script **************
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 32B done
+#1 DONE 0.1s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 34B done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye
+#3 DONE 1.2s
+
+#4 [1/5] FROM docker.io/library/python:3.10.4-slim-bullseye@sha256:557745c5e06c874ba811efe2e002aff21b6cc405b828952fcfa16dea52d56dbb
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 272.04kB 0.1s done
+#5 DONE 0.1s
+
+#6 [2/5] WORKDIR /bookstore
+#6 CACHED
+
+#7 [3/5] COPY ./requirements.txt .
+#7 CACHED
+
+#8 [4/5] RUN pip install -r requirements.txt
+#8 CACHED
+
+#9 [5/5] COPY . .
+#9 DONE 0.3s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 0.2s done
+#10 writing image sha256:37b95430cd82e31783be4fbe98efdc0ca6ae3ad90637cd11b4ca2b65c733446c
+#10 writing image sha256:37b95430cd82e31783be4fbe98efdc0ca6ae3ad90637cd11b4ca2b65c733446c 0.0s done
+#10 naming to docker.io/library/bookstore-web 0.0s done
+#10 DONE 0.4s
+Container bookstore-db-1  Running
+Container bookstore-web-1  Recreate
+Container bookstore-web-1  Recreated
+Container bookstore-web-1  Starting
+Container bookstore-web-1  Started
+NAME                IMAGE               COMMAND                  SERVICE             CREATED             STATUS                  PORTS
+bookstore-db-1      postgres:13         "docker-entrypoint.s…"   db                  8 days ago          Up About an hour        5432/tcp
+bookstore-web-1     bookstore-web       "python /code/manage…"   web                 3 seconds ago       Up Less than a second   0.0.0.0:8000->8000/tcp
+##############  Tue 21 Mar 2023 12:00:07 PM EAT: Script completed Succcessfully  #############
+
+******************* Tue 21 Mar 2023 12:59:01 PM EAT: Starting script **************
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 32B done
+#1 DONE 0.1s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 34B done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye
+#3 ERROR: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+------
+ > [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye:
+------
+failed to solve: rpc error: code = Unknown desc = failed to solve with frontend dockerfile.v0: failed to create LLB definition: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+NAME                IMAGE               COMMAND                  SERVICE             CREATED             STATUS              PORTS
+bookstore-db-1      postgres:13         "docker-entrypoint.s…"   db                  9 days ago          Up 2 hours          5432/tcp
+##############  Tue 21 Mar 2023 12:59:06 PM EAT: Script completed Succcessfully  #############
+
+******************* Tue 21 Mar 2023 01:00:01 PM EAT: Starting script **************
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 32B done
+#1 DONE 0.1s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 34B done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye
+#3 ERROR: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+------
+ > [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye:
+------
+failed to solve: rpc error: code = Unknown desc = failed to solve with frontend dockerfile.v0: failed to create LLB definition: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+NAME                IMAGE               COMMAND                  SERVICE             CREATED             STATUS              PORTS
+bookstore-db-1      postgres:13         "docker-entrypoint.s…"   db                  9 days ago          Up 2 hours          5432/tcp
+##############  Tue 21 Mar 2023 01:00:02 PM EAT: Script completed Succcessfully  #############
+
+******************* Tue 21 Mar 2023 01:59:01 PM EAT: Starting script **************
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 32B done
+#1 DONE 0.1s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 34B done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye
+#3 ERROR: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+------
+ > [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye:
+------
+failed to solve: rpc error: code = Unknown desc = failed to solve with frontend dockerfile.v0: failed to create LLB definition: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+NAME                IMAGE               COMMAND                  SERVICE             CREATED             STATUS              PORTS
+bookstore-db-1      postgres:13         "docker-entrypoint.s…"   db                  9 days ago          Up 3 hours          5432/tcp
+##############  Tue 21 Mar 2023 01:59:04 PM EAT: Script completed Succcessfully  #############
+
+******************* Tue 21 Mar 2023 02:00:02 PM EAT: Starting script **************
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 32B 0.0s done
+#1 DONE 0.1s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 34B done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye
+#3 ERROR: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+------
+ > [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye:
+------
+failed to solve: rpc error: code = Unknown desc = failed to solve with frontend dockerfile.v0: failed to create LLB definition: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+NAME                IMAGE               COMMAND                  SERVICE             CREATED             STATUS              PORTS
+bookstore-db-1      postgres:13         "docker-entrypoint.s…"   db                  9 days ago          Up 3 hours          5432/tcp
+##############  Tue 21 Mar 2023 02:00:03 PM EAT: Script completed Succcessfully  #############
+
+******************* Tue 21 Mar 2023 02:59:01 PM EAT: Starting script **************
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 32B 0.0s done
+#1 DONE 0.1s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 34B done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye
+#3 ERROR: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+------
+ > [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye:
+------
+failed to solve: rpc error: code = Unknown desc = failed to solve with frontend dockerfile.v0: failed to create LLB definition: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+NAME                IMAGE               COMMAND                  SERVICE             CREATED             STATUS              PORTS
+bookstore-db-1      postgres:13         "docker-entrypoint.s…"   db                  9 days ago          Up 4 hours          5432/tcp
+##############  Tue 21 Mar 2023 02:59:04 PM EAT: Script completed Succcessfully  #############
+
+******************* Tue 21 Mar 2023 03:00:05 PM EAT: Starting script **************
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 30B
+#1 transferring dockerfile: 32B done
+#1 DONE 0.1s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 34B done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye
+#3 ERROR: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+------
+ > [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye:
+------
+failed to solve: rpc error: code = Unknown desc = failed to solve with frontend dockerfile.v0: failed to create LLB definition: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.10.4-slim-bullseye": dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+NAME                IMAGE               COMMAND                  SERVICE             CREATED             STATUS              PORTS
+bookstore-db-1      postgres:13         "docker-entrypoint.s…"   db                  9 days ago          Up 4 hours          5432/tcp
+##############  Tue 21 Mar 2023 03:00:07 PM EAT: Script completed Succcessfully  #############
+
+******************* Tue 21 Mar 2023 03:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Tue 21 Mar 2023 03:59:03 PM EAT: Script completed Succcessfully  #############
+
+******************* Tue 21 Mar 2023 04:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Tue 21 Mar 2023 04:00:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Tue 21 Mar 2023 04:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Tue 21 Mar 2023 04:59:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Tue 21 Mar 2023 05:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Tue 21 Mar 2023 05:00:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Tue 21 Mar 2023 05:59:02 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Tue 21 Mar 2023 05:59:03 PM EAT: Script completed Succcessfully  #############
+
+******************* Tue 21 Mar 2023 06:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Tue 21 Mar 2023 06:00:02 PM EAT: Script completed Succcessfully  #############
+
+******************* Tue 21 Mar 2023 06:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Tue 21 Mar 2023 06:59:02 PM EAT: Script completed Succcessfully  #############
+
+******************* Tue 21 Mar 2023 07:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Tue 21 Mar 2023 07:00:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Wed 22 Mar 2023 08:59:16 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 22 Mar 2023 08:59:18 AM EAT: Script completed Succcessfully  #############
+
+******************* Wed 22 Mar 2023 09:00:07 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 22 Mar 2023 09:00:08 AM EAT: Script completed Succcessfully  #############
+
+******************* Wed 22 Mar 2023 09:59:14 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 22 Mar 2023 09:59:14 AM EAT: Script completed Succcessfully  #############
+
+******************* Wed 22 Mar 2023 10:00:15 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 22 Mar 2023 10:00:15 AM EAT: Script completed Succcessfully  #############
+
+******************* Wed 22 Mar 2023 11:59:01 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 22 Mar 2023 11:59:02 AM EAT: Script completed Succcessfully  #############
+
+******************* Wed 22 Mar 2023 12:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 22 Mar 2023 12:00:02 PM EAT: Script completed Succcessfully  #############
+
+******************* Wed 22 Mar 2023 12:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 22 Mar 2023 12:59:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Wed 22 Mar 2023 01:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 22 Mar 2023 01:00:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Wed 22 Mar 2023 01:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 22 Mar 2023 01:59:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Wed 22 Mar 2023 02:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 22 Mar 2023 02:00:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Wed 22 Mar 2023 02:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 22 Mar 2023 02:59:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Wed 22 Mar 2023 03:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 22 Mar 2023 03:00:02 PM EAT: Script completed Succcessfully  #############
+
+******************* Wed 22 Mar 2023 03:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 22 Mar 2023 03:59:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Wed 22 Mar 2023 04:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 22 Mar 2023 04:00:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Wed 22 Mar 2023 04:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 22 Mar 2023 04:59:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Wed 22 Mar 2023 05:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 22 Mar 2023 05:00:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Wed 22 Mar 2023 05:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 22 Mar 2023 05:59:02 PM EAT: Script completed Succcessfully  #############
+
+******************* Wed 22 Mar 2023 06:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 22 Mar 2023 06:00:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Wed 22 Mar 2023 06:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 22 Mar 2023 06:59:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Wed 22 Mar 2023 07:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 22 Mar 2023 07:00:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Thu 23 Mar 2023 05:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Thu 23 Mar 2023 05:59:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Thu 23 Mar 2023 06:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Thu 23 Mar 2023 06:00:02 PM EAT: Script completed Succcessfully  #############
+
+******************* Fri 24 Mar 2023 10:59:01 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Fri 24 Mar 2023 10:59:01 AM EAT: Script completed Succcessfully  #############
+
+******************* Fri 24 Mar 2023 11:00:01 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Fri 24 Mar 2023 11:00:02 AM EAT: Script completed Succcessfully  #############
+
+******************* Fri 24 Mar 2023 11:59:01 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Fri 24 Mar 2023 11:59:02 AM EAT: Script completed Succcessfully  #############
+
+******************* Fri 24 Mar 2023 12:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Fri 24 Mar 2023 12:00:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Fri 24 Mar 2023 12:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Fri 24 Mar 2023 12:59:03 PM EAT: Script completed Succcessfully  #############
+
+******************* Fri 24 Mar 2023 01:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Fri 24 Mar 2023 02:19:23 PM EAT: Script completed Succcessfully  #############
+
+******************* Fri 24 Mar 2023 02:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Fri 24 Mar 2023 02:59:03 PM EAT: Script completed Succcessfully  #############
+
+******************* Fri 24 Mar 2023 03:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Fri 24 Mar 2023 03:00:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Fri 24 Mar 2023 03:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Fri 24 Mar 2023 03:59:02 PM EAT: Script completed Succcessfully  #############
+
+******************* Fri 24 Mar 2023 04:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Fri 24 Mar 2023 04:00:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Fri 24 Mar 2023 04:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Fri 24 Mar 2023 04:59:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Fri 24 Mar 2023 05:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Fri 24 Mar 2023 05:00:02 PM EAT: Script completed Succcessfully  #############
+
+******************* Fri 24 Mar 2023 05:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Fri 24 Mar 2023 05:59:03 PM EAT: Script completed Succcessfully  #############
+
+******************* Fri 24 Mar 2023 06:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Fri 24 Mar 2023 06:00:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Sat 25 Mar 2023 01:59:13 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Sat 25 Mar 2023 01:59:15 AM EAT: Script completed Succcessfully  #############
+
+******************* Sat 25 Mar 2023 02:00:07 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Sat 25 Mar 2023 02:00:07 AM EAT: Script completed Succcessfully  #############
+
+******************* Sat 25 Mar 2023 02:59:08 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Sat 25 Mar 2023 02:59:08 AM EAT: Script completed Succcessfully  #############
+
+******************* Sat 25 Mar 2023 03:00:14 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Sat 25 Mar 2023 03:00:14 AM EAT: Script completed Succcessfully  #############
+
+******************* Sat 25 Mar 2023 03:59:14 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Sat 25 Mar 2023 03:59:14 AM EAT: Script completed Succcessfully  #############
+
+******************* Sat 25 Mar 2023 04:00:13 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Sat 25 Mar 2023 04:00:13 AM EAT: Script completed Succcessfully  #############
+
+******************* Sat 25 Mar 2023 04:59:15 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Sat 25 Mar 2023 04:59:15 AM EAT: Script completed Succcessfully  #############
+
+******************* Sat 25 Mar 2023 05:00:07 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Sat 25 Mar 2023 05:00:08 AM EAT: Script completed Succcessfully  #############
+
+******************* Sat 25 Mar 2023 05:59:07 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Sat 25 Mar 2023 05:59:08 AM EAT: Script completed Succcessfully  #############
+
+******************* Sat 25 Mar 2023 06:00:13 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Sat 25 Mar 2023 06:00:14 AM EAT: Script completed Succcessfully  #############
+
+******************* Sat 25 Mar 2023 11:59:01 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Sat 25 Mar 2023 11:59:03 AM EAT: Script completed Succcessfully  #############
+
+******************* Sat 25 Mar 2023 12:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Sat 25 Mar 2023 12:00:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Sat 25 Mar 2023 12:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Sat 25 Mar 2023 12:59:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Sat 25 Mar 2023 01:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Sat 25 Mar 2023 01:00:02 PM EAT: Script completed Succcessfully  #############
+
+******************* Mon 27 Mar 2023 09:59:01 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Mon 27 Mar 2023 09:59:11 AM EAT: Script completed Succcessfully  #############
+
+******************* Mon 27 Mar 2023 10:00:01 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Mon 27 Mar 2023 10:00:02 AM EAT: Script completed Succcessfully  #############
+
+******************* Mon 27 Mar 2023 10:59:01 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Mon 27 Mar 2023 10:59:02 AM EAT: Script completed Succcessfully  #############
+
+******************* Mon 27 Mar 2023 11:00:01 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Mon 27 Mar 2023 11:00:02 AM EAT: Script completed Succcessfully  #############
+
+******************* Mon 27 Mar 2023 11:59:01 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Mon 27 Mar 2023 11:59:05 AM EAT: Script completed Succcessfully  #############
+
+******************* Mon 27 Mar 2023 12:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Mon 27 Mar 2023 12:00:02 PM EAT: Script completed Succcessfully  #############
+
+******************* Mon 27 Mar 2023 12:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Mon 27 Mar 2023 12:59:03 PM EAT: Script completed Succcessfully  #############
+
+******************* Mon 27 Mar 2023 01:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Mon 27 Mar 2023 01:00:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Mon 27 Mar 2023 01:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Mon 27 Mar 2023 01:59:02 PM EAT: Script completed Succcessfully  #############
+
+******************* Mon 27 Mar 2023 02:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Mon 27 Mar 2023 02:00:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Mon 27 Mar 2023 02:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Mon 27 Mar 2023 02:59:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Mon 27 Mar 2023 03:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Mon 27 Mar 2023 03:00:02 PM EAT: Script completed Succcessfully  #############
+
+******************* Mon 27 Mar 2023 03:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Mon 27 Mar 2023 03:59:02 PM EAT: Script completed Succcessfully  #############
+
+******************* Mon 27 Mar 2023 04:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Mon 27 Mar 2023 04:00:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Mon 27 Mar 2023 04:06:04 PM EAT: Starting script **************
+##############  Mon 27 Mar 2023 04:08:48 PM EAT: Script completed Succcessfully  #############
+******************* Mon 27 Mar 2023 04:59:01 PM EAT: Starting script **************
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile:
+#1 transferring dockerfile: 32B 0.0s done
+#1 DONE 0.3s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 34B 0.0s done
+#2 DONE 0.3s
+
+#3 [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye
+#3 DONE 3.6s
+
+#4 [1/5] FROM docker.io/library/python:3.10.4-slim-bullseye@sha256:557745c5e06c874ba811efe2e002aff21b6cc405b828952fcfa16dea52d56dbb
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 317.39kB 0.2s done
+#5 DONE 0.8s
+
+#6 [2/5] WORKDIR /bookstore
+#6 CACHED
+
+#7 [3/5] COPY ./requirements.txt .
+#7 CACHED
+
+#8 [4/5] RUN pip install -r requirements.txt
+#8 CACHED
+
+#9 [5/5] COPY . .
+#9 DONE 5.0s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 0.9s done
+#10 writing image sha256:89919046e4a2a20d0b62d430e41f72583d9f53bafc75a68b4a56913fe83fdeb3
+#10 writing image sha256:89919046e4a2a20d0b62d430e41f72583d9f53bafc75a68b4a56913fe83fdeb3 0.0s done
+#10 naming to docker.io/library/bookstore-web 0.1s done
+#10 DONE 1.4s
+Container bookstore-db-1  Running
+Container bookstore-web-1  Recreate
+Container bookstore-web-1  Recreated
+Container bookstore-web-1  Starting
+Container bookstore-web-1  Started
+NAME                IMAGE               COMMAND                  SERVICE             CREATED             STATUS              PORTS
+bookstore-db-1      postgres:13         "docker-entrypoint.s…"   db                  2 weeks ago         Up 50 minutes       5432/tcp
+bookstore-web-1     bookstore-web       "python /code/manage…"   web                 8 seconds ago       Up 2 seconds        0.0.0.0:8000->8000/tcp
+##############  Mon 27 Mar 2023 04:59:28 PM EAT: Script completed Succcessfully  #############
+
+******************* Mon 27 Mar 2023 05:00:01 PM EAT: Starting script **************
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 32B done
+#1 DONE 0.1s
+
+#2 [internal] load .dockerignore
+#2 transferring context:
+#2 transferring context: 34B done
+#2 DONE 0.2s
+
+#3 [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye
+#3 DONE 3.1s
+
+#4 [1/5] FROM docker.io/library/python:3.10.4-slim-bullseye@sha256:557745c5e06c874ba811efe2e002aff21b6cc405b828952fcfa16dea52d56dbb
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 314.99kB 0.0s done
+#5 DONE 0.1s
+
+#6 [2/5] WORKDIR /bookstore
+#6 CACHED
+
+#7 [3/5] COPY ./requirements.txt .
+#7 CACHED
+
+#8 [4/5] RUN pip install -r requirements.txt
+#8 CACHED
+
+#9 [5/5] COPY . .
+#9 DONE 1.1s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 0.4s done
+#10 writing image sha256:d3bf2b94f3b4f25cf6a7056d9f780849b47613c284a70e297e5451288942e5b1
+#10 writing image sha256:d3bf2b94f3b4f25cf6a7056d9f780849b47613c284a70e297e5451288942e5b1 0.0s done
+#10 naming to docker.io/library/bookstore-web 0.0s done
+#10 DONE 0.5s
+Container bookstore-db-1  Running
+Container bookstore-web-1  Recreate
+Container bookstore-web-1  Recreated
+Container bookstore-web-1  Starting
+Container bookstore-web-1  Started
+NAME                IMAGE               COMMAND                  SERVICE             CREATED             STATUS                  PORTS
+bookstore-db-1      postgres:13         "docker-entrypoint.s…"   db                  2 weeks ago         Up 51 minutes           5432/tcp
+bookstore-web-1     bookstore-web       "python /code/manage…"   web                 4 seconds ago       Up Less than a second   0.0.0.0:8000->8000/tcp
+##############  Mon 27 Mar 2023 05:00:13 PM EAT: Script completed Succcessfully  #############
+
+******************* Mon 27 Mar 2023 05:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Mon 27 Mar 2023 05:59:02 PM EAT: Script completed Succcessfully  #############
+
+******************* Mon 27 Mar 2023 06:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Mon 27 Mar 2023 06:00:02 PM EAT: Script completed Succcessfully  #############
+
+******************* Mon 27 Mar 2023 06:59:01 PM EAT: Starting script **************
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 32B 0.1s done
+#1 DONE 0.7s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 34B 0.1s done
+#2 DONE 0.8s
+
+#3 [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye
+#3 DONE 11.5s
+
+#4 [1/5] FROM docker.io/library/python:3.10.4-slim-bullseye@sha256:557745c5e06c874ba811efe2e002aff21b6cc405b828952fcfa16dea52d56dbb
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context:
+#5 transferring context: 322.58kB 0.4s done
+#5 DONE 0.6s
+
+#6 [2/5] WORKDIR /bookstore
+#6 CACHED
+
+#7 [3/5] COPY ./requirements.txt .
+#7 CACHED
+
+#8 [4/5] RUN pip install -r requirements.txt
+#8 CACHED
+
+#9 [5/5] COPY . .
+#9 DONE 1.7s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 0.4s done
+#10 writing image sha256:d96ffad4308291cb92bea23ef691db5e404b79b1062bddca5c098946c99915fc
+#10 writing image sha256:d96ffad4308291cb92bea23ef691db5e404b79b1062bddca5c098946c99915fc 0.0s done
+#10 naming to docker.io/library/bookstore-web 0.0s done
+#10 DONE 0.6s
+Container bookstore-db-1  Running
+Container bookstore-web-1  Recreate
+******************* Mon 27 Mar 2023 07:00:09 PM EAT: Starting script **************
+
+Container bookstore-web-1  Recreated
+Container bookstore-web-1  Starting
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 30B 0.1s
+#1 transferring dockerfile: 32B 0.2s done
+#1 DONE 0.8s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 34B 0.0s done
+#2 DONE 1.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye
+#3 DONE 3.6s
+
+#4 [1/5] FROM docker.io/library/python:3.10.4-slim-bullseye@sha256:557745c5e06c874ba811efe2e002aff21b6cc405b828952fcfa16dea52d56dbb
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context:
+#5 transferring context: 319.23kB 1.2s done
+#5 DONE 1.6s
+Container bookstore-web-1  Started
+
+#6 [2/5] WORKDIR /bookstore
+#6 CACHED
+
+#7 [3/5] COPY ./requirements.txt .
+#7 CACHED
+
+#8 [4/5] RUN pip install -r requirements.txt
+#8 CACHED
+
+#9 [5/5] COPY . .
+#9 DONE 2.2s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 0.9s done
+#10 writing image sha256:ecc389d1d9df6e38110c4922f18c02e1b7a0122d4781d73f66885416939b9c58
+#10 writing image sha256:ecc389d1d9df6e38110c4922f18c02e1b7a0122d4781d73f66885416939b9c58 0.1s done
+#10 naming to docker.io/library/bookstore-web
+#10 naming to docker.io/library/bookstore-web 0.1s done
+#10 DONE 1.3s
+Container bookstore-db-1  Running
+Container bookstore-web-1  Recreate
+Container bookstore-web-1  Recreated
+Container bookstore-web-1  Starting
+NAME                IMAGE               COMMAND                  SERVICE             CREATED             STATUS              PORTS
+bookstore-db-1      postgres:13         "docker-entrypoint.s…"   db                  48 minutes ago      Up 45 minutes       5432/tcp
+##############  Mon 27 Mar 2023 07:02:47 PM EAT: Script completed Succcessfully  #############
+
+******************* Tue 28 Mar 2023 08:59:01 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Tue 28 Mar 2023 08:59:02 AM EAT: Script completed Succcessfully  #############
+
+******************* Tue 28 Mar 2023 09:00:01 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Tue 28 Mar 2023 09:00:02 AM EAT: Script completed Succcessfully  #############
+
+******************* Tue 28 Mar 2023 09:59:01 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Tue 28 Mar 2023 09:59:01 AM EAT: Script completed Succcessfully  #############
+
+******************* Tue 28 Mar 2023 10:00:01 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Tue 28 Mar 2023 10:00:01 AM EAT: Script completed Succcessfully  #############
+
+******************* Tue 28 Mar 2023 10:59:01 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Tue 28 Mar 2023 10:59:02 AM EAT: Script completed Succcessfully  #############
+
+******************* Tue 28 Mar 2023 11:00:01 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Tue 28 Mar 2023 11:00:01 AM EAT: Script completed Succcessfully  #############
+
+******************* Tue 28 Mar 2023 11:59:01 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Tue 28 Mar 2023 11:59:01 AM EAT: Script completed Succcessfully  #############
+
+******************* Tue 28 Mar 2023 12:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Tue 28 Mar 2023 12:00:02 PM EAT: Script completed Succcessfully  #############
+
+******************* Tue 28 Mar 2023 02:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Tue 28 Mar 2023 02:59:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Tue 28 Mar 2023 03:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Tue 28 Mar 2023 03:00:02 PM EAT: Script completed Succcessfully  #############
+
+******************* Wed 29 Mar 2023 09:59:01 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 29 Mar 2023 09:59:02 AM EAT: Script completed Succcessfully  #############
+
+******************* Wed 29 Mar 2023 10:00:01 AM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 29 Mar 2023 10:00:01 AM EAT: Script completed Succcessfully  #############
+
+******************* Wed 29 Mar 2023 12:59:02 PM EAT: Starting script **************
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 32B done
+#1 DONE 0.1s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 34B done
+#2 DONE 0.2s
+
+#3 [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye
+#3 DONE 1.8s
+
+#4 [1/5] FROM docker.io/library/python:3.10.4-slim-bullseye@sha256:557745c5e06c874ba811efe2e002aff21b6cc405b828952fcfa16dea52d56dbb
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 325.77kB 0.1s done
+#5 DONE 0.2s
+
+#6 [3/5] COPY ./requirements.txt .
+#6 CACHED
+
+#7 [2/5] WORKDIR /bookstore
+#7 CACHED
+
+#8 [4/5] RUN pip install -r requirements.txt
+#8 CACHED
+
+#9 [5/5] COPY . .
+#9 DONE 1.1s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 0.3s done
+#10 writing image sha256:cc52ec64132b53fd9de27597374d719e625ca374e8f1fa4047ba534c115bcf72
+#10 writing image sha256:cc52ec64132b53fd9de27597374d719e625ca374e8f1fa4047ba534c115bcf72 0.0s done
+#10 naming to docker.io/library/bookstore-web 0.0s done
+#10 DONE 0.5s
+Container bookstore-db-1  Running
+Container bookstore-web-1  Recreate
+Container bookstore-web-1  Recreated
+Container bookstore-web-1  Starting
+Container bookstore-web-1  Started
+NAME                IMAGE               COMMAND                  SERVICE             CREATED             STATUS                  PORTS
+bookstore-db-1      postgres:13         "docker-entrypoint.s…"   db                  43 hours ago        Up About a minute       5432/tcp
+bookstore-web-1     bookstore-web       "python /code/manage…"   web                 2 seconds ago       Up Less than a second   0.0.0.0:8000->8000/tcp
+##############  Wed 29 Mar 2023 12:59:14 PM EAT: Script completed Succcessfully  #############
+
+******************* Wed 29 Mar 2023 01:00:01 PM EAT: Starting script **************
+
+#1 [internal] load .dockerignore
+#1 ...
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 32B done
+#2 DONE 0.1s
+
+#1 [internal] load .dockerignore
+#1 transferring context:
+#1 transferring context: 34B done
+#1 DONE 0.2s
+
+#3 [internal] load metadata for docker.io/library/python:3.10.4-slim-bullseye
+#3 DONE 2.0s
+
+#4 [1/5] FROM docker.io/library/python:3.10.4-slim-bullseye@sha256:557745c5e06c874ba811efe2e002aff21b6cc405b828952fcfa16dea52d56dbb
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 328.06kB 0.1s done
+#5 DONE 0.2s
+
+#6 [3/5] COPY ./requirements.txt .
+#6 CACHED
+
+#7 [2/5] WORKDIR /bookstore
+#7 CACHED
+
+#8 [4/5] RUN pip install -r requirements.txt
+#8 CACHED
+
+#9 [5/5] COPY . .
+#9 DONE 11.2s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 0.4s done
+#10 writing image sha256:be090f4e371e8de26a6f4d4eeab1819d764decfe591e0884380b0046bc8094b3
+#10 writing image sha256:be090f4e371e8de26a6f4d4eeab1819d764decfe591e0884380b0046bc8094b3 0.0s done
+#10 naming to docker.io/library/bookstore-web 0.0s done
+#10 DONE 0.6s
+Container bookstore-db-1  Running
+Container bookstore-web-1  Recreate
+Container bookstore-web-1  Recreated
+Container bookstore-web-1  Starting
+Container bookstore-web-1  Started
+NAME                IMAGE               COMMAND                  SERVICE             CREATED             STATUS                  PORTS
+bookstore-db-1      postgres:13         "docker-entrypoint.s…"   db                  43 hours ago        Up 3 minutes            5432/tcp
+bookstore-web-1     bookstore-web       "python /code/manage…"   web                 2 seconds ago       Up Less than a second   0.0.0.0:8000->8000/tcp
+##############  Wed 29 Mar 2023 01:00:21 PM EAT: Script completed Succcessfully  #############
+
+******************* Wed 29 Mar 2023 01:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 29 Mar 2023 01:59:03 PM EAT: Script completed Succcessfully  #############
+
+******************* Wed 29 Mar 2023 02:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 29 Mar 2023 02:00:01 PM EAT: Script completed Succcessfully  #############
+
+******************* Wed 29 Mar 2023 02:59:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 29 Mar 2023 02:59:03 PM EAT: Script completed Succcessfully  #############
+
+******************* Wed 29 Mar 2023 03:00:01 PM EAT: Starting script **************
+
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+Cannot connect to the Docker daemon at unix:///home/mishael/.docker/desktop/docker.sock. Is the docker daemon running?
+##############  Wed 29 Mar 2023 03:00:01 PM EAT: Script completed Succcessfully  #############
+

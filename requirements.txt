@@ -2,3 +2,7 @@ Django
 django-bootstrap5
 django-browser-reload
 psycopg2-binary
+whitenoise
+pytz
+django-crispy-forms
+crispy-bootstrap5
