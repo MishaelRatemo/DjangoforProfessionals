@@ -39,13 +39,26 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
     # Third-party
     "crispy_forms", 
     "crispy_bootstrap5",
+    'allauth',
+    'allauth.account'
     # local
     'accounts',
     'pages'
 ]
+
+#Djago allauth config
+SITE_ID =1
+AUTHENTICATION_BACKENDS = (
+    "django.contrib.auth.backends.ModelBackend",
+    "allauth.account.auth_backends.AuthenticationBackend",
+)
+
+# Redirect sending email to console instead of SMTP( not yet configured)
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
 # django-crispy-forms
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
@@ -98,8 +111,8 @@ DATABASES = {
             "NAME": "postgres",
             "USER": "postgres",
             "PASSWORD": "mish",
-            # "HOST": "db", # For docker COmpose NB: remove local for container
-            "HOST": "127.0.0.1", # For local development
+            "HOST": "db", # For docker COmpose NB: remove local for container
+            # "HOST": "127.0.0.1", # For local development
             "PORT": 5432,
         }
 }
