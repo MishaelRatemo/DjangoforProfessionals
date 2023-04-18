@@ -44,10 +44,10 @@ INSTALLED_APPS = [
     "crispy_forms", 
     "crispy_bootstrap5",
     'allauth',
-    'allauth.account'
+    'allauth.account',
     # local
     'accounts',
-    'pages'
+    'pages',
 ]
 
 #Djago allauth config
