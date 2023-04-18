@@ -6,3 +6,4 @@ whitenoise
 pytz
 django-crispy-forms
 crispy-bootstrap5
+django-allauth # advanced user registraton

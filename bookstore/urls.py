@@ -20,8 +20,9 @@ urlpatterns = [
     #Django Admin
     path('admin/', admin.site.urls),
     #user management
-    path('accounts/', include('django.contrib.auth.urls')),
+    # path('accounts/', include('django.contrib.auth.urls')),
+    path("accounts/", include("allauth.urls")), # We’ll still use the same accounts/ URL path, however, since we’ll be using django-allauth ’s templates and routes for sign up we can delete the URL path for our accounts app, too
     #Local apps
-    path('accounts/', include('accounts.urls')),
+    # path('accounts/', include('accounts.urls')),
     path('', include('pages.urls')),
 ]
