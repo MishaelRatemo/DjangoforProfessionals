@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     "crispy_bootstrap5",
     'allauth',
     'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
     # local
     'accounts',
     'pages',
@@ -89,6 +91,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.request',###############
             ],
         },
     },
@@ -113,8 +116,8 @@ DATABASES = {
             "NAME": "postgres",
             "USER": "postgres",
             "PASSWORD": "mish",
-            "HOST": "db", # For docker COmpose NB: remove local for container
-            # "HOST": "127.0.0.1", # For local development
+            # "HOST": "db", # For docker COmpose NB: remove local for container
+            "HOST": "127.0.0.1", # For local development
             "PORT": 5432,
         }
 }
