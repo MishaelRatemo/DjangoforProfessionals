@@ -7,3 +7,4 @@ pytz
 django-crispy-forms
 crispy-bootstrap5
 django-allauth # advanced user registraton
+environs[django] #package for env variables
