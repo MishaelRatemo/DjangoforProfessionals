@@ -74,6 +74,9 @@ ACCOUNT_AUTHENTICATION_METHOD = "email"
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_UNIQUE_EMAIL = True 
 
+DEFAULT_FROM_EMAIL = "admin@dbookstore.com"
+
+
 # Redirect sending email to console instead of SMTP( not yet configured)
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
