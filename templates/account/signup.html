@@ -2,8 +2,9 @@
 {%load crispy_forms_tags %}
 {% block title %}Sign Up{% endblock title %}
 {% block content %}
-<div class="container">
-    <form method="post" >
+<div class="container p-2 m-auto d-flex align-items-center justify-content-center vh-75">
+    <div>
+        <form method="post" >
             <fieldset>
                 <legend>Sign Up</legend>
             {% csrf_token %}
@@ -11,6 +12,8 @@
             <button class="btn btn-success" type="submit">Sign Up</button>
         </fieldset>
         </form>
+        <br> <br>
         <p>Already have an account <a href="{% url 'account_login' %}">Log In</a></p>
+    </div>
 </div>
 {% endblock content %}
