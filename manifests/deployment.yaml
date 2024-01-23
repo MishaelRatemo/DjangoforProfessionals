@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-deploy
+  labels:
+    app: test-deploy
+  namespace: dev-team
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: test-deploy
+  template:
+    metadata:
+      labels:
+        app: test-deploy
+    spec:
+      containers:
+        - name: test-deploy
+          image: acrworkflow1705993779896.azurecr.io/image-workflow-1705993779896:latest
+          ports:
+            - containerPort: 3000
