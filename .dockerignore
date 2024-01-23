@@ -1,3 +1,2 @@
-.virtual
-.git
-.gitignore
+Dockerfile
+charts/
