@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: test-deploy
+  namespace: dev-team
+spec:
+  type: LoadBalancer
+  selector:
+    app: test-deploy
+  ports:
+    - protocol: TCP
+      port: 3000
+      targetPort: 3000
