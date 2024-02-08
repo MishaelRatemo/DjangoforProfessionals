@@ -1,6 +1,6 @@
-# BookStore App 
+# BookStore App *
  
-##  Automate Project Build Every amount of Time 
+##  Automate Project Build Every amount of Time
 If you want to automate the continuous build for a Dockerized app in a local environment, you can use a tool like Docker Compose to define and run your development environment.
 
 Here's a general overview of the steps involved in automating the continuous build for a Dockerized app using Docker Compose:
