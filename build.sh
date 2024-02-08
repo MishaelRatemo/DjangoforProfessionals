@@ -18,4 +18,4 @@ docker compose ps
 
 echo "##############  $(date): Script completed Succcessfully  #############" >> /home/mishael/coding/python/DJANGODevOps/bookstore/build.log 2>&1
 
-echo 
+echo
