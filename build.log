@@ -304,7 +304,7 @@ bookstore-web-1     bookstore-web       "python /code/manage…"   web          
 #1 transferring dockerfile: 32B done
 #1 DONE 0.4s
 
-#2 [internal] load .dockerignore
+#2 [internal] load .dockerignore  
 #2 transferring context: 34B done
 #2 DONE 0.5s
 
